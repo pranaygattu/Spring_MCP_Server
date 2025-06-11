@@ -40,3 +40,19 @@ com.fasterxml.jackson.databind.exc.MismatchedInputException: No content to map d
 2025-06-11T17:34:34.021-04:00  INFO 2024 --- [MCP_Server_Shopping_Cart] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
 2025-06-11T17:34:34.022-04:00  INFO 2024 --- [MCP_Server_Shopping_Cart] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
 2025-06-11T17:34:34.269-04:00  INFO 2024 --- [MCP_Server_Shopping_Cart] [main] .d.McpServerShoppingCartApplicationTests : Started McpServerShoppingCartApplicationTests in 1.766 seconds (process running for 3.021)
+2025-06-11T18:55:39.653-04:00  INFO 10944 --- [MCP_Server_Shopping_Cart] [main] .d.McpServerShoppingCartApplicationTests : Starting McpServerShoppingCartApplicationTests using Java 21.0.3 with PID 10944 (started by Gattu in D:\Projects\mcp_project\demo\SpringAI_MCP_Server)
+2025-06-11T18:55:39.653-04:00  INFO 10944 --- [MCP_Server_Shopping_Cart] [main] .d.McpServerShoppingCartApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2025-06-11T18:55:40.649-04:00  INFO 10944 --- [MCP_Server_Shopping_Cart] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-06-11T18:55:40.650-04:00  INFO 10944 --- [MCP_Server_Shopping_Cart] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Registered tools: 3
+2025-06-11T18:55:40.650-04:00  INFO 10944 --- [MCP_Server_Shopping_Cart] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-06-11T18:55:40.651-04:00  INFO 10944 --- [MCP_Server_Shopping_Cart] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-06-11T18:55:40.652-04:00  INFO 10944 --- [MCP_Server_Shopping_Cart] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-06-11T18:55:40.843-04:00  INFO 10944 --- [MCP_Server_Shopping_Cart] [main] .d.McpServerShoppingCartApplicationTests : Started McpServerShoppingCartApplicationTests in 1.582 seconds (process running for 2.675)
+2025-06-11T18:56:36.608-04:00  INFO 6760 --- [MCP_Server_Shopping_Cart] [main] .d.McpServerShoppingCartApplicationTests : Starting McpServerShoppingCartApplicationTests using Java 21.0.3 with PID 6760 (started by Gattu in D:\Projects\mcp_project\demo\SpringAI_MCP_Server)
+2025-06-11T18:56:36.608-04:00  INFO 6760 --- [MCP_Server_Shopping_Cart] [main] .d.McpServerShoppingCartApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2025-06-11T18:56:37.593-04:00  INFO 6760 --- [MCP_Server_Shopping_Cart] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-06-11T18:56:37.595-04:00  INFO 6760 --- [MCP_Server_Shopping_Cart] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Registered tools: 3
+2025-06-11T18:56:37.597-04:00  INFO 6760 --- [MCP_Server_Shopping_Cart] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-06-11T18:56:37.597-04:00  INFO 6760 --- [MCP_Server_Shopping_Cart] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-06-11T18:56:37.597-04:00  INFO 6760 --- [MCP_Server_Shopping_Cart] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-06-11T18:56:37.807-04:00  INFO 6760 --- [MCP_Server_Shopping_Cart] [main] .d.McpServerShoppingCartApplicationTests : Started McpServerShoppingCartApplicationTests in 1.583 seconds (process running for 2.738)
