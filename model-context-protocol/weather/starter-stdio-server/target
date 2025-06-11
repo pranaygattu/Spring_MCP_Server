@@ -1,0 +1,42 @@
+2025-06-11T17:06:52.273-04:00  INFO 28028 --- [MCP_Server_Shopping_Cart] [main] c.e.d.McpServerShoppingCartApplication   : Starting McpServerShoppingCartApplication using Java 18 with PID 28028 (D:\Projects\mcp_project\demo\demo\target\classes started by Gattu in D:\Projects\mcp_project\demo\demo)
+2025-06-11T17:06:52.273-04:00  INFO 28028 --- [MCP_Server_Shopping_Cart] [main] c.e.d.McpServerShoppingCartApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-06-11T17:06:53.097-04:00  INFO 28028 --- [MCP_Server_Shopping_Cart] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-06-11T17:06:53.114-04:00  INFO 28028 --- [MCP_Server_Shopping_Cart] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Registered tools: 2
+2025-06-11T17:06:53.114-04:00  INFO 28028 --- [MCP_Server_Shopping_Cart] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-06-11T17:06:53.114-04:00  INFO 28028 --- [MCP_Server_Shopping_Cart] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-06-11T17:06:53.114-04:00  INFO 28028 --- [MCP_Server_Shopping_Cart] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-06-11T17:06:53.361-04:00  INFO 28028 --- [MCP_Server_Shopping_Cart] [main] c.e.d.McpServerShoppingCartApplication   : Started McpServerShoppingCartApplication in 1.544 seconds (process running for 1.904)
+2025-06-11T17:07:11.382-04:00 ERROR 28028 --- [MCP_Server_Shopping_Cart] [pool-2-thread-1] i.m.s.t.StdioServerTransportProvider     : Error processing inbound message
+
+com.fasterxml.jackson.databind.exc.MismatchedInputException: No content to map due to end-of-input
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1]
+	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:59) ~[jackson-databind-2.19.0.jar:2.19.0]
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:5062) ~[jackson-databind-2.19.0.jar:2.19.0]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4961) ~[jackson-databind-2.19.0.jar:2.19.0]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3887) ~[jackson-databind-2.19.0.jar:2.19.0]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3870) ~[jackson-databind-2.19.0.jar:2.19.0]
+	at io.modelcontextprotocol.spec.McpSchema.deserializeJsonRpcMessage(McpSchema.java:157) ~[mcp-0.10.0.jar:0.10.0]
+	at io.modelcontextprotocol.server.transport.StdioServerTransportProvider$StdioMcpSessionTransport.lambda$startInboundProcessing$4(StdioServerTransportProvider.java:217) ~[mcp-0.10.0.jar:0.10.0]
+	at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:68) ~[reactor-core-3.7.6.jar:3.7.6]
+	at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:28) ~[reactor-core-3.7.6.jar:3.7.6]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2025-06-11T17:08:15.995-04:00  INFO 27708 --- [MCP_Server_Shopping_Cart] [main] .d.McpServerShoppingCartApplicationTests : Starting McpServerShoppingCartApplicationTests using Java 21.0.3 with PID 27708 (started by Gattu in D:\Projects\mcp_project\demo\demo)
+2025-06-11T17:08:15.997-04:00  INFO 27708 --- [MCP_Server_Shopping_Cart] [main] .d.McpServerShoppingCartApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2025-06-11T17:08:16.864-04:00  INFO 27708 --- [MCP_Server_Shopping_Cart] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-06-11T17:08:16.865-04:00  INFO 27708 --- [MCP_Server_Shopping_Cart] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Registered tools: 2
+2025-06-11T17:08:16.866-04:00  INFO 27708 --- [MCP_Server_Shopping_Cart] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-06-11T17:08:16.866-04:00  INFO 27708 --- [MCP_Server_Shopping_Cart] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-06-11T17:08:16.867-04:00  INFO 27708 --- [MCP_Server_Shopping_Cart] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-06-11T17:08:17.052-04:00  INFO 27708 --- [MCP_Server_Shopping_Cart] [main] .d.McpServerShoppingCartApplicationTests : Started McpServerShoppingCartApplicationTests in 1.402 seconds (process running for 2.395)
+2025-06-11T17:34:32.936-04:00  INFO 2024 --- [MCP_Server_Shopping_Cart] [main] .d.McpServerShoppingCartApplicationTests : Starting McpServerShoppingCartApplicationTests using Java 21.0.3 with PID 2024 (started by Gattu in D:\Projects\mcp_project\demo\demo)
+2025-06-11T17:34:32.937-04:00  INFO 2024 --- [MCP_Server_Shopping_Cart] [main] .d.McpServerShoppingCartApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2025-06-11T17:34:34.018-04:00  INFO 2024 --- [MCP_Server_Shopping_Cart] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-06-11T17:34:34.019-04:00  INFO 2024 --- [MCP_Server_Shopping_Cart] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Registered tools: 3
+2025-06-11T17:34:34.020-04:00  INFO 2024 --- [MCP_Server_Shopping_Cart] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-06-11T17:34:34.021-04:00  INFO 2024 --- [MCP_Server_Shopping_Cart] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-06-11T17:34:34.022-04:00  INFO 2024 --- [MCP_Server_Shopping_Cart] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-06-11T17:34:34.269-04:00  INFO 2024 --- [MCP_Server_Shopping_Cart] [main] .d.McpServerShoppingCartApplicationTests : Started McpServerShoppingCartApplicationTests in 1.766 seconds (process running for 3.021)
