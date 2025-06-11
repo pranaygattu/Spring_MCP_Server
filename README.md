@@ -136,6 +136,3 @@ src/main/java/com/example/SpringAI_MCP/
 
 Feel free to submit issues and enhancement requests!
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
